@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+ labels:
+   name: gep-dev-app-db
+ name: gep-dev-app-db
+spec:
+ type: NodePort
+ ports:
+ - name: mongo-db
+   port: 27017
+   targetPort: 27017
+ selector:
+   name: gep-dev-app-db
