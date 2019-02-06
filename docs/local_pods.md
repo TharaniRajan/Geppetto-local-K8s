@@ -4,7 +4,7 @@
 # Content
 1. [Prerequisites](#prerequisites)
 1. [DevOps](#devops)
-1. [DevOps DB](#devops db)
+1. [DevOps DB](#devopsdb)
 1. [Telemetry](#prerequisites)
 
 
