@@ -3,10 +3,10 @@
 
 # Content
 1. [Prerequisites](#prerequisites)
-1. [Dev Ops](#jenkins-installation)
-1. [Dev Ops DB](#jenkins-installation)
-1. [Telimetry](https://github.com/TharaniRajan/Jenkins-Docker/blob/master/Dockerfile)
-1. [Docker Compose file](https://github.com/TharaniRajan/Jenkins-Docker/blob/master/docker-compose.yml)
+2. [DevOps](#prerequisites)
+2. [DevOps DB](#prerequisites)
+2. [Telemetry](#prerequisites)
+
 
 # Prerequisites<br/> 
   [Kubernetes Setup](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/docs/Kubernetes_setup.md) <br/> 
