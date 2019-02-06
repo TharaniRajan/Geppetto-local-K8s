@@ -37,3 +37,22 @@
      $ kubectl create -f dev-ops-service.yaml
   
   Now the DevOps will be up and running in our kubernetes Cluster.
+  
+  
+ # DevOps DB<br/> 
+   The DevOps DB Pod consists of Database needed for the DevOps, currently it has Postgres DB for the SonarQube.
+   
+   To Deploy the DevOps DB:
+   
+   createe PersistanceVolume for the DB
+   
+     $ kubectl create -f sonar-pv-postgres.yaml
+   
+   create deployment:
+   
+     $ kubectl create -f dev-ops-db-deployment.yaml
+ 
+   create service:
+   
+     $ kubectl create -f dev-ops-db-service.yaml
+      
