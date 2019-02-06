@@ -4,7 +4,7 @@
 # Content
 1. [Prerequisites](#prerequisites)
 1. [DevOps](#devops)
-1. [DevOps DB](#devopsdb)
+1. [DevOps-DB](#devops-db)
 1. [Telemetry](#prerequisites)
 
 
@@ -39,7 +39,7 @@
   Now the DevOps will be up and running in our kubernetes Cluster.
   
   
- # DevOps DB<br/> 
+ # DevOps-DB<br/> 
    The DevOps DB Pod consists of Database needed for the DevOps, currently it has Postgres DB for the SonarQube.
    
    To Deploy the DevOps DB:
