@@ -6,6 +6,7 @@
 # Content
 1. [Prerequisites](#prerequisites)
 1. [Kubernetes Setup](#kubernetes-setup)
+1. [Local Pods Setup](#kubernetes-setup)
 
 
 # Prerequisites<br/> 
