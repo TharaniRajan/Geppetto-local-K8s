@@ -128,4 +128,12 @@
    
    ![Vault](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/docs/images/Vault.png?raw=true"Vault")
    
+   Run this file to create deployment for vault [telemetry-deployment.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/telemetry-service.yaml)
+   
+      $ kubectl create -f telemetry-deployment.yaml
+      
+   Run this file to create the service [telemetry-service.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/telemetry-service.yaml)
+       
+      $ kubectl create -f telemetry-service.yaml
+      
    
