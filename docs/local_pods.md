@@ -26,7 +26,7 @@
  ### Nexus:
   The best way to organize, store, and distribute software components.
   
-  ![Nexus](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/docs/images/nexus.png?raw=true"Nexus")
+  ![Nexus](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/docs/images/Nexus.png?raw=true"Nexus")
  
  ### SonarQube:
   SonarQube is an open-source platform developed by SonarSource for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs, code smells, and security vulnerabilities.
