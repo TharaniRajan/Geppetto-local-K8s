@@ -86,7 +86,7 @@
    
      $ kubectl create -f elasticsearch_stateset.yaml
              
-   Run this file is to [elasticsearch_svc.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/elasticsearch_svc.yaml)
+   To deploy the elasticsearch,run this file [elasticsearch_svc.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/elasticsearch_svc.yaml)
    
      $ kubectl create -f elasticsearch_svc.yaml
     
