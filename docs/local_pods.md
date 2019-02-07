@@ -98,7 +98,7 @@
    
      $ kubectl create -f fluentd.yaml
      
-   ![Kibana](https://github.com/TharaniRajan/Jenkins-Docker/blob/master/docs/images/kibana.png?raw=true"Kibana")   
+   ![Kibana](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/docs/images/kibana.png?raw=true"Kibana")   
   
    
    
