@@ -62,6 +62,8 @@
    # Telemetry<br/> 
    The Telemetry Pod consists of EFK(Elasticsearch + Fluentd + Kibana), Vault and Prometheus.
    
+   To create a namespace for this telemetry pods run this file [kube-logging.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/kube-logging.yaml)
+   
    To Deploy the DevOps DB:
    
    createe PersistanceVolume for the DB
