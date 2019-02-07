@@ -21,11 +21,17 @@
  ### Jenkins:
   Jenkins helps to automate the non-human part of the software development process, with continuous integration and facilitating technical aspects of continuous delivery.
   
+  ![Jenkins](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/docs/images/jenkins.png?raw=true"Jenkins")
+  
  ### Nexus:
   The best way to organize, store, and distribute software components.
+  
+  ![Nexus](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/docs/images/nexus.png?raw=true"Nexus")
  
  ### SonarQube:
   SonarQube is an open-source platform developed by SonarSource for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs, code smells, and security vulnerabilities.
+  
+  ![Sonar](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/docs/images/sonar.png?raw=true"Sonar")
   
   To Deploy all the three containers in one Pod:
      we need create a kubernetes deployment with the file [dev-ops-deployment.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/dev-ops/dev-ops-deployment.yaml)
