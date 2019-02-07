@@ -94,7 +94,7 @@
    
      $ kubectl create -f kibana.yaml
      
-   TO Deploy the fluentd,run this file [fluentd.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/fluentd.yaml)
+   To Deploy the fluentd,run this file [fluentd.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/fluentd.yaml)
    
      $ kubectl create -f fluentd.yaml
    
