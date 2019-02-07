@@ -90,11 +90,11 @@
    
      $ kubectl create -f elasticsearch_svc.yaml
     
-   To Deploy the Kibana, run this file [kibana.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/kibana.yaml)
+   To deploy the Kibana, run this file [kibana.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/kibana.yaml)
    
      $ kubectl create -f kibana.yaml
      
-   To Deploy the fluentd,run this file [fluentd.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/fluentd.yaml)
+   To deploy the fluentd,run this file [fluentd.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/fluentd.yaml)
    
      $ kubectl create -f fluentd.yaml
    
