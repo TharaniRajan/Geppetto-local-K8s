@@ -50,15 +50,15 @@
    
    To Deploy the DevOps DB:
    
-   create PersistanceVolume for the DB
+   Create PersistanceVolume for the DB
    
      $ kubectl create -f sonar-pv-postgres.yaml
    
-   create deployment:
+   Create deployment:
    
      $ kubectl create -f dev-ops-db-deployment.yaml
  
-   create service:
+   Create service:
    
      $ kubectl create -f dev-ops-db-service.yaml
       
@@ -88,11 +88,11 @@
    
      $ kubectl create -f elasticsearch_pv.yaml
          
-   Run this file is to create elasticsearch deployment[elasticsearch_stateset.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/elasticsearch_statefulset.yaml)
+   Run this file is to create elasticsearch deployment [elasticsearch_stateset.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/elasticsearch_statefulset.yaml)
    
      $ kubectl create -f elasticsearch_stateset.yaml
              
-   Run this file to create elasticsearch service[elasticsearch_svc.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/elasticsearch_svc.yaml)
+   Run this file to create elasticsearch service [elasticsearch_svc.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/elasticsearch_svc.yaml)
    
      $ kubectl create -f elasticsearch_svc.yaml
     
@@ -108,5 +108,7 @@
   
    
    # Vault
+   
+   ![Vault](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/docs/images/Vault.png?raw=true"Vault")
    
    
