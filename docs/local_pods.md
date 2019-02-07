@@ -105,6 +105,8 @@
      $ kubectl create -f fluentd.yaml
      
    ![Kibana](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/docs/images/kibana.png?raw=true"Kibana")   
+   
+   Now,EFK is up and running.
   
    
    # Vault
