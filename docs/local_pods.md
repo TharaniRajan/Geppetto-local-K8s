@@ -132,8 +132,8 @@
    
       $ kubectl create -f telemetry-deployment.yaml
       
-   Run this file to create the service [telemetry-service.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/telemetry-service.yaml)
+   Run this file to create the service [telemetry-service.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/telimetry-service.yaml)
        
-      $ kubectl create -f telemetry-service.yaml
+      $ kubectl create -f telimetry-service.yaml
       
    
