@@ -97,5 +97,8 @@
    To deploy the fluentd,run this file [fluentd.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/fluentd.yaml)
    
      $ kubectl create -f fluentd.yaml
+     
+   ![Kibana](https://github.com/TharaniRajan/Jenkins-Docker/blob/master/docs/images/kibana.png?raw=true"Kibana")   
+  
    
    
