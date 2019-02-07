@@ -5,7 +5,7 @@
 1. [Prerequisites](#prerequisites)
 1. [DevOps](#devops)
 1. [DevOps-DB](#devops-db)
-1. [Telemetry](#Telemetry-Pods)
+1. [Telemetry](#telemetry)
 
 
 # Prerequisites<br/> 
@@ -44,7 +44,7 @@
    
    To Deploy the DevOps DB:
    
-   createe PersistanceVolume for the DB
+   create PersistanceVolume for the DB
    
      $ kubectl create -f sonar-pv-postgres.yaml
    
@@ -63,6 +63,25 @@
    The Telemetry Pod consists of EFK(Elasticsearch + Fluentd + Kibana), Vault and Prometheus.
    
    To create a namespace for this telemetry pods run this file [kube-logging.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/kube-logging.yaml)
+   
+         $ kubectl create -f kube-logging.yaml     
+         
+   You can then confirm that the Namespace was successfully created:
+   
+         $ kubectl get namespaces
+         
+   Run this file is to [elasticsearch_pv.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/elasticsearch_pv.yaml)
+   
+         $ kubectl create -f elasticsearch_pv.yaml
+         
+   Run this file is to [elasticsearch_stateset.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/elasticsearch_statefulset.yaml)
+   
+         $ kubectl create -f elasticsearch_stateset.yaml
+             
+   Run this file is to [elasticsearch_svc.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/elasticsearch_svc.yaml)
+   
+         $ kubectl create -f elasticsearch_svc.yaml
+   
    
    To Deploy the DevOps DB:
    
