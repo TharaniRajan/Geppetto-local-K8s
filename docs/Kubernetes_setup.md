@@ -50,4 +50,27 @@
      
      $ minikube dashboard
   
-  you can able to see browser opens with the minikube Kubernetes Dashboard.  
+  you can able to see browser opens with the minikube Kubernetes Dashboard. 
+  
+  # Rancher Setup
+  
+   Rancher is a neat tool that is best described as a deployment tool for Kubernetes that additionally has integrated itself    to provide networking and load balancing support.
+   
+   First ssh into minikube using this command,
+   
+      $ minikube ssh
+      
+   Then inside the minikube we have run the rancher
+   
+      $ docker run -d --restart=unless-stopped -p 7080:80 -p 7443:443 rancher/rancher:latest
+      
+   Test it by https://<minikube ip>:7443 in your browser.(Get your minikube ip using "minikube ip" command)
+   
+   Enter into the rancher with setting up new password.Click "Add Cluster" and select "Import" to import existing cluster.
+   And then create cluster name and click create.
+   
+   ![Importcluster](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/docs/images/importcluster.png?raw=true"Importcluster")
+    
+   Just come out from minikube ssh by "exit" command.
+   
+  
