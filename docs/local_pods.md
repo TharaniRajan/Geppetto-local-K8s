@@ -64,25 +64,25 @@
    
    To create a namespace for this telemetry pods run this file [kube-logging.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/kube-logging.yaml)
    
-         $ kubectl create -f kube-logging.yaml     
+     $ kubectl create -f kube-logging.yaml     
          
    You can then confirm that the Namespace was successfully created:
    
-         $ kubectl get namespaces
+     $ kubectl get namespaces
          
    # EFK      
          
    Run this file is to [elasticsearch_pv.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/elasticsearch_pv.yaml)
    
-         $ kubectl create -f elasticsearch_pv.yaml
+     $ kubectl create -f elasticsearch_pv.yaml
          
    Run this file is to create stateset [elasticsearch_stateset.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/elasticsearch_statefulset.yaml)
    
-         $ kubectl create -f elasticsearch_stateset.yaml
+     $ kubectl create -f elasticsearch_stateset.yaml
              
    Run this file is to [elasticsearch_svc.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/elasticsearch_svc.yaml)
    
-         $ kubectl create -f elasticsearch_svc.yaml
+     $ kubectl create -f elasticsearch_svc.yaml
     
    To Deploy the Kibana, run this file [kibana.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/kibana.yaml)
    
