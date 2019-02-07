@@ -100,6 +100,8 @@
    
      $ kubectl create -f kibana.yaml
      
+   After elasticsearch and kibana is set need to connect to fluentd for container logs,
+
    To deploy the fluentd,run this file [fluentd.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/fluentd.yaml)
    
      $ kubectl create -f fluentd.yaml
@@ -110,6 +112,8 @@
   
    # Prometheus
    
+   An open-source monitoring system with a dimensional data model, flexible query language, efficient time series database and modern alerting approach.
+   
    To create clusterRole config [prometheus-clusterRole.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/prometheus-clusterRole.yaml)
    
      $ kubectl create -f prometheus-clusterRole.yaml
@@ -119,6 +123,8 @@
      $ kubectl create -f prometheus-config-map.yaml
    
    # Vault
+   
+   Vault is a tool for securely accessing secrets. A secret is anything that you want to tightly control access to, such as API keys, passwords, certificates, and more. Vault provides a unified interface to any secret while providing tight access control and recording a detailed audit log.
    
    ![Vault](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/docs/images/Vault.png?raw=true"Vault")
    
