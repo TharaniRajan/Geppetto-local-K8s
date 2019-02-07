@@ -5,7 +5,7 @@
 1. [Prerequisites](#prerequisites)
 1. [DevOps](#devops)
 1. [DevOps-DB](#devops-db)
-1. [Telemetry](#prerequisites)
+1. [Telemetry](#Telemetry-Pods)
 
 
 # Prerequisites<br/> 
@@ -57,3 +57,23 @@
      $ kubectl create -f dev-ops-db-service.yaml
       
    Now the DevOps DB Pod is up and running. 
+   
+   
+   # Telemetry<br/> 
+   The Telemetry Pod consists of EFK(Elasticsearch + Fluentd + Kibana), Vault and Prometheus.
+   
+   To Deploy the DevOps DB:
+   
+   createe PersistanceVolume for the DB
+   
+     $ kubectl create -f sonar-pv-postgres.yaml
+   
+   create deployment:
+   
+     $ kubectl create -f dev-ops-db-deployment.yaml
+ 
+   create service:
+   
+     $ kubectl create -f dev-ops-db-service.yaml
+      
+   Now the DevOps DB Pod is up and running.
