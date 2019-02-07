@@ -66,11 +66,16 @@
       
    Test it by https://<minikube ip>:7443 in your browser.(Get your minikube ip using "minikube ip" command)
    
+   Just come out from minikube ssh by "exit" command.
+   
    Enter into the rancher with setting up new password.Click "Add Cluster" and select "Import" to import existing cluster.
    And then create cluster name and click create.
    
    ![Importcluster](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/docs/images/importcluster.png?raw=true"Importcluster")
-    
-   Just come out from minikube ssh by "exit" command.
+   
+   Then you will see the window it provide the yaml file just copy and paste it your terminal.
+   
+   Now your rancher is successfully connected with your minikube.You can check by creating container in minikube it can accessible from rancher ui.
+   
    
   
