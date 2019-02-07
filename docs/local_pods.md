@@ -84,15 +84,15 @@
    
    Fluentd to collect, transform, and ship log data to the Elasticsearch backend. Fluentd is a popular open-source data collector that we'll set up on our Kubernetes nodes to tail container log files, filter and transform the log data, and deliver it to the Elasticsearch cluster, where it will be indexed and stored.
          
-   Run this file is to [elasticsearch_pv.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/elasticsearch_pv.yaml)
+   To create the persistent volume run this file [elasticsearch_pv.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/elasticsearch_pv.yaml)
    
      $ kubectl create -f elasticsearch_pv.yaml
          
-   Run this file is to create elasticsearch stateset [elasticsearch_stateset.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/elasticsearch_statefulset.yaml)
+   Run this file is to create elasticsearch deployment[elasticsearch_stateset.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/elasticsearch_statefulset.yaml)
    
      $ kubectl create -f elasticsearch_stateset.yaml
              
-   To deploy the elasticsearch,run this file [elasticsearch_svc.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/elasticsearch_svc.yaml)
+   Run this file to create elasticsearch service[elasticsearch_svc.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/elasticsearch_svc.yaml)
    
      $ kubectl create -f elasticsearch_svc.yaml
     
@@ -106,5 +106,7 @@
      
    ![Kibana](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/docs/images/kibana.png?raw=true"Kibana")   
   
+   
+   # Vault
    
    
