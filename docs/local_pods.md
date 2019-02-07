@@ -108,6 +108,13 @@
    
    Now,EFK is up and running.
   
+   # Prometheus
+   
+   To create clusterRole config [prometheus-clusterRole.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/prometheus-clusterRole.yaml)
+   
+     $ kubectl create -f prometheus-clusterRole.yaml
+     
+   To create a config Map [prometheus-config-Map.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/telimetry-pod/prometheus-config-Map.yaml)
    
    # Vault
    
