@@ -66,7 +66,7 @@
       
    ![minikube](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/docs/images/minikube.png?raw=true"minikube")  
       
-   Test it by https://"minikube-ip":7443 in your browser.(Get your minikube ip using "minikube ip" command)
+   Test it by https://"minikube-ip":7080 in your browser.(Get your minikube ip using "minikube ip" command)
    
    Just come out from minikube ssh by "exit" command.
    
