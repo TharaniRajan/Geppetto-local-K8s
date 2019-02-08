@@ -91,7 +91,7 @@
    
    ![rancher-cluster](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/docs/images/rancher%20cluster.png?raw=true"rancher-cluster")
    
-   That it..You can access that container from rancher.
+   Now,you can access that your app container from rancher.
    
    
   
