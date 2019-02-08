@@ -73,7 +73,9 @@
    
    ![Importcluster](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/docs/images/importcluster.png?raw=true"Importcluster")
    
-   Then you will see the window it provide the yaml file just copy and paste it your terminal.
+   Then you will see the window it provide the yaml file.
+   
+   ![cluster](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/docs/images/cluster.png?raw=true"cluster")
    
    Now your rancher is successfully connected with your minikube.You can check by creating container in minikube it can accessible from rancher ui.
    
