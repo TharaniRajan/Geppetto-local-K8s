@@ -79,9 +79,11 @@
    
    ![cluster](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/docs/images/cluster.png?raw=true"cluster")
    
+   Copy that command and run it in your terminal.Your cattle-system namespace is created.
+   
    Now your rancher is successfully connected with your minikube.You can check by creating container in minikube it can accessible from rancher ui.
    
-   Check it by running this kubectl cmd to run nginx, [system-entry-deployment.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/system-entry-pod/system-entry-deployment.yaml)
+   Check it by running this kubectl command to run nginx, [system-entry-deployment.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/system-entry-pod/system-entry-deployment.yaml)
    
        $ kubectl create -f system-entry-deployment.yaml
        
