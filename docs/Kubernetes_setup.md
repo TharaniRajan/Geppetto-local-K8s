@@ -85,11 +85,13 @@
    
        $ kubectl create -f system-entry-deployment.yaml
        
-   And then run its service,[system-entry-deployment.yaml]((https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/system-entry-pod/system-entry-service.yaml)
+   And then run its service,[system-entry-deployment.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/system-entry-pod/system-entry-service.yaml)
    
       $ kubectl create -f system-entry-service.yaml
    
    ![rancher-cluster](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/docs/images/rancher%20cluster.png?raw=true"rancher-cluster")
+   
+   That it..You can access that container from ranhcer.
    
    
   
