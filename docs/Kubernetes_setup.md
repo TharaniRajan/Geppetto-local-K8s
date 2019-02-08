@@ -81,6 +81,14 @@
    
    Now your rancher is successfully connected with your minikube.You can check by creating container in minikube it can accessible from rancher ui.
    
+   Check it by running this kubectl cmd to run nginx,[system-entry-deployment.yaml](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/system-entry-pod/system-entry-deployment.yaml)
+   
+       $ kubectl create -f system-entry-deployment.yaml
+       
+   And then run its service,[system-entry-deployment.yaml]((https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/system-entry-pod/system-entry-service.yaml)
+   
+      $ kubectl create -f system-entry-service.yaml
+   
    ![rancher-cluster](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/docs/images/rancher%20cluster.png?raw=true"rancher-cluster")
    
    
