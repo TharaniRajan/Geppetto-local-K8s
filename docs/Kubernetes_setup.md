@@ -64,7 +64,7 @@
    
       $ docker run -d --restart=unless-stopped -p 7080:80 -p 7443:443 rancher/rancher:latest
       
-   Test it by https://<<minikube ip>>:7443 in your browser.(Get your minikube ip using "minikube ip" command)
+   Test it by https://"minikube-ip":7443 in your browser.(Get your minikube ip using "minikube ip" command)
    
    Just come out from minikube ssh by "exit" command.
    
