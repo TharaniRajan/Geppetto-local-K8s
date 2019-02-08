@@ -81,7 +81,7 @@
    
    Now your rancher is successfully connected with your minikube.You can check by creating container in minikube it can accessible from rancher ui.
    
-   ![rancher-cluster]https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/docs/images/rancher%20cluster.png?raw=true"rancher-cluster")
+   ![rancher-cluster](https://github.com/TharaniRajan/Geppetto-local-K8s/blob/master/docs/images/rancher%20cluster.png?raw=true"rancher-cluster")
    
    
   
